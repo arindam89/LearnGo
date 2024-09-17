@@ -41,3 +41,7 @@ func mainServer() {
 		log.Fatal(err)
 	}
 }
+
+func main() {
+	mainServer()
+}
